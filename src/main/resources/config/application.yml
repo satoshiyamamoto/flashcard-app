@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/flashcard?useSSL=false
+    username: root
+    password: ''
+    driver-class-name: com.mysql.jdbc.Driver
+  mustache:
+    suffix: .html
+  jpa:
+    generate-ddl: true
+    show-sql: true
+logging:
+  level:
+    root: info

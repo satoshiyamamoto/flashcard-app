@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<body>
+  <h1>Vocabulary Trainer</h1>
+  <table>
+    <tr>
+      <th>#</th>
+      <th>Question</th>
+      <th>Answer</th>
+      <th>Tags</th>
+    </tr>
+    {{#cards}}
+    <tr>
+      <td>{{id}}</td>
+      <td>{{question}}</td>
+      <td>{{answer}}</td>
+      <td>{{tags}}</td>
+    </tr>
+    {{/cards}}
+  </table>
+</body>
+</html>
